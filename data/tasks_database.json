@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Купить квартиру",
+    "description": "на LA",
+    "date": "03-04-2026",
+    "priority": "LOW",
+    "category": "HOBBIES",
+    "is_done": false
+  },
+  {
+    "title": "Построить дом",
+    "description": "в Новой Зеландии",
+    "date": "05-04-2026",
+    "priority": "MEDIUM",
+    "category": "FAMILY",
+    "is_done": false
+  },
+  {
+    "title": "Кукукареку",
+    "description": "Обратиться в психушку",
+    "date": "07-04-2026",
+    "priority": "LOW",
+    "category": "HEALTH",
+    "is_done": false
+  },
+  {
+    "title": "Тутутут",
+    "description": "пам пам пам",
+    "date": "12-06-2026",
+    "priority": "HIGH",
+    "category": "HOBBIES",
+    "is_done": false
+  }
+]
