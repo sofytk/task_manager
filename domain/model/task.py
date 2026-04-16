@@ -4,7 +4,7 @@ import uuid
 
 
 class Task:
-    def __init__(self, date, title, description, priority, is_done, category):
+    def __init__(self, id, date, title, description, priority, is_done, category):
         self._id = id if id else str(uuid.uuid4())
         self._date = date
         self._title = title
@@ -79,11 +79,11 @@ class Task:
     @staticmethod
     def from_dict(data):
         return Task(
-            data["id"],
-            data["date"],
-            data["title"],
-            data["description"],
-            Priority[data["priority"]],
-            data["is_done"],
-            Category[data["category"]]
+            data.get("id"),
+            data.get("date"),
+            data.get("title"),
+            data.get("description"),
+            Priority[data.get("priority")],
+            data.get("is_done"),
+            Category[data.get("category")]
         )

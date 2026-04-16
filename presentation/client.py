@@ -89,7 +89,7 @@ class Client:
         is_done_input = input("Статус - выполнено? [y/n]: ").strip().lower()
         is_done = is_done_input == "y"
 
-        task = Task(date, title, description, priority, is_done, category)
+        task = Task(None, date, title, description, priority, is_done, category)
         self.controller.add_task(task)
         print("Задача добавлена и сохранена.")
 

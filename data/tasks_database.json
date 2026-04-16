@@ -1,5 +1,6 @@
 [
   {
+    "id": "69f7a7ef-76ed-4aa1-a960-675311dbb48a",
     "title": "Купить квартиру",
     "description": "на LA",
     "date": "03-04-2026",
@@ -8,6 +9,7 @@
     "is_done": false
   },
   {
+    "id": "6973e46a-2cc5-4fcc-83c1-d896304af8fb",
     "title": "Построить дом",
     "description": "в Новой Зеландии",
     "date": "05-04-2026",
@@ -16,6 +18,7 @@
     "is_done": false
   },
   {
+    "id": "a1449a98-e81f-4b51-9dfb-b50a730a67d1",
     "title": "Кукукареку",
     "description": "Обратиться в психушку",
     "date": "07-04-2026",
@@ -24,11 +27,21 @@
     "is_done": false
   },
   {
+    "id": "b6e21441-d6cd-4c8d-9c4d-9540c4b87efd",
     "title": "Тутутут",
     "description": "пам пам пам",
     "date": "12-06-2026",
     "priority": "HIGH",
     "category": "HOBBIES",
+    "is_done": false
+  },
+  {
+    "id": "088ac5b0-8430-43ab-b226-c7c5e73b09d3",
+    "title": "Проверить проект",
+    "description": "вот этот",
+    "date": "17-04-2026",
+    "priority": "HIGH",
+    "category": "LEARNING",
     "is_done": false
   }
 ]
